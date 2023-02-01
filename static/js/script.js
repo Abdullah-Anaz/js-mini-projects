@@ -1,4 +1,4 @@
-//challenge 1: your age in days
+//Mini Project 1
 function ageInDays(){
     const birthYear = prompt("What year were you born... Good friend?")
     const _ageInDays = (2022 - birthYear) * 365;
@@ -10,6 +10,7 @@ function reset(){
     document.getElementById('ageInDays').innerHTML = "";
 }
 
+//Mini Project 2
 function generateCat(){
     const image = document.createElement('img');
     const div = document.getElementById('flex-cat-gen');
@@ -17,6 +18,7 @@ function generateCat(){
     div.appendChild(image);
 }
 
+//Mini Project 3
 function rpsGame(yourChoice){
     let humanChoice, botChoice;
     humanChoice = yourChoice.id;
@@ -83,6 +85,7 @@ function rpsFontEnd(humanChoice, computerChoice, message){
     document.getElementById('flex-box-rps').appendChild(botDiv);
 }
 
+//Mini Project 4
 const all_buttons = document.getElementsByTagName('button');
 let copyAllButtons = [];
 
@@ -132,7 +135,7 @@ function buttonsColorRandom(){
     }
 }
 
-/////////////////////////////////////////////
+//Mini Project 5
 let blackJackGame= {
     'you': {
         'scoreSpan': '#your-blackjack-result',
